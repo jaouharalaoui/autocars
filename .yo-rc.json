@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "ma.insea.sb",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "autocars",
+    "packageName": "ma.insea.sb",
+    "packageFolder": "ma/insea/sb",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTQ3YTczNmZlMGMzNWY4ODQ2OGY3OGQ1ZWFjNjA5ZmU2Nzk0MDc0NTE1OTliZGZmZDY1N2QwNDQ1ZThmZDczMjY1OTk4YzkzMmM2MGU0ZjQwYjgzOGE4NGY3N2FlMWE5ZTc5YjEyMTNhYjQ4ZWYwZDMzZjhmMWU0YjJkMGFmNjI=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"]
+  }
+}
