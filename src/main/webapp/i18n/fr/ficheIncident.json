@@ -1,0 +1,28 @@
+{
+  "autocarsApp": {
+    "ficheIncident": {
+      "home": {
+        "title": "FicheIncidents",
+        "createLabel": "Créer un nouveau Fiche Incident",
+        "createOrEditLabel": "Créer ou éditer un Fiche Incident"
+      },
+      "created": "Un nouveau Fiche Incident a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Fiche Incident avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Fiche Incident avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Fiche Incident {{ id }} ?"
+      },
+      "detail": {
+        "title": "Fiche Incident"
+      },
+      "dateIncident": "Date Incident",
+      "numeroFiche": "Numero Fiche",
+      "incidentCritique": "Incident Critique",
+      "lieuIncident": "Lieu Incident",
+      "nombreVoyageur": "Nombre Voyageur",
+      "descriptionIncident": "Description Incident",
+      "agentDeclarant": "Agent Declarant",
+      "vehicule": "Vehicule"
+    }
+  }
+}

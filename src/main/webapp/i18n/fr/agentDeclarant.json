@@ -1,0 +1,22 @@
+{
+  "autocarsApp": {
+    "agentDeclarant": {
+      "home": {
+        "title": "AgentDeclarants",
+        "createLabel": "Créer un nouveau Agent Declarant",
+        "createOrEditLabel": "Créer ou éditer un Agent Declarant"
+      },
+      "created": "Un nouveau Agent Declarant a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Agent Declarant avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Agent Declarant avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Agent Declarant {{ id }} ?"
+      },
+      "detail": {
+        "title": "Agent Declarant"
+      },
+      "nom": "Nom",
+      "prenom": "Prenom"
+    }
+  }
+}

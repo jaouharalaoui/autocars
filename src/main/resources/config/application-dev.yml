@@ -23,7 +23,7 @@ spring:
     profiles:
         active: dev
         include:
-            - swagger
+            - swagger, no-liquibase
             # Uncomment to activate TLS for the dev profile
             #- tls
     devtools:
@@ -38,7 +38,7 @@ spring:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:mysql://localhost:3306/autocars?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
         username: root
-        password:
+        password: root
         hikari:
             poolName: Hikari
             auto-commit: false
@@ -57,7 +57,9 @@ spring:
             hibernate.cache.use_second_level_cache: false
             hibernate.cache.use_query_cache: false
             hibernate.generate_statistics: true
+            hibernate.hbm2ddl.auto: update
     liquibase:
+        enabled: false
         contexts: dev
     mail:
         host: localhost

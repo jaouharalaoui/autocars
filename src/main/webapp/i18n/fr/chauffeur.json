@@ -1,0 +1,24 @@
+{
+  "autocarsApp": {
+    "chauffeur": {
+      "home": {
+        "title": "Chauffeurs",
+        "createLabel": "Créer un nouveau Chauffeur",
+        "createOrEditLabel": "Créer ou éditer un Chauffeur"
+      },
+      "created": "Un nouveau Chauffeur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Chauffeur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Chauffeur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Chauffeur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Chauffeur"
+      },
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "telephone": "Telephone",
+      "vehicule": "Vehicule"
+    }
+  }
+}

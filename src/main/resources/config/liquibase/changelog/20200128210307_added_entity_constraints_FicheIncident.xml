@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity FicheIncident.
+    -->
+    <changeSet id="20200128210307-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="agent_declarant_id"
+                                 baseTableName="fiche_incident"
+                                 constraintName="fk_fiche_incident_agent_declarant_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="agent_declarant"/>
+
+        <addForeignKeyConstraint baseColumnNames="vehicule_id"
+                                 baseTableName="fiche_incident"
+                                 constraintName="fk_fiche_incident_vehicule_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="vehicule"/>
+
+    </changeSet>
+</databaseChangeLog>

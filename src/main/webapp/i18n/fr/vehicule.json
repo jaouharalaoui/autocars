@@ -1,0 +1,24 @@
+{
+  "autocarsApp": {
+    "vehicule": {
+      "home": {
+        "title": "Vehicules",
+        "createLabel": "Créer un nouveau Vehicule",
+        "createOrEditLabel": "Créer ou éditer un Vehicule"
+      },
+      "created": "Un nouveau Vehicule a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Vehicule avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Vehicule avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Vehicule {{ id }} ?"
+      },
+      "detail": {
+        "title": "Vehicule"
+      },
+      "codeIntern": "Code Intern",
+      "immatriculation": "Immatriculation",
+      "dateDeMiseEnCirculation": "Date De Mise En Circulation",
+      "chauffeur": "Chauffeur"
+    }
+  }
+}

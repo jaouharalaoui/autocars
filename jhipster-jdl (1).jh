@@ -1,0 +1,46 @@
+
+entity Chauffeur{
+	nom String required,
+    prenom String required,
+    telephone String required
+}
+
+entity Vehicule{
+	codeIntern String required,
+    immatriculation String required,
+    dateDeMiseEnCirculation LocalDate required
+}
+
+entity FicheIncident{
+	dateIncident LocalDate required,
+    numeroFiche String required,
+    incidentCritique Boolean required,
+    lieuIncident String required,
+    nombreVoyageur Integer required,
+    descriptionIncident String 
+}
+
+entity AgentDeclarant{
+	nom String required,
+    prenom String required
+}
+
+relationship ManyToMany {
+	 Chauffeur{vehicule} to Vehicule{chauffeur}  
+}
+
+relationship ManyToOne {
+	FicheIncident{agentDeclarant(nom)} to AgentDeclarant,
+    FicheIncident{vehicule(immatriculation)} to Vehicule,
+}
+
+paginate * with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
